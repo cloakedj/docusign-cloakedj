@@ -1,0 +1,35 @@
+:root{
+    --primary-dark: #112;
+    --primary-light: 241, 241, 241;
+    --primary-gray: #808080d7;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+/* Utility Classes */
+.relative{
+    position: relative;
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* Animations */
+@keyframes rotate{
+    from {
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
